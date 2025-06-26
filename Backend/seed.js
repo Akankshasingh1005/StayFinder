@@ -10,24 +10,27 @@ dotenv.config();
 const MONGO_URL = process.env.MONGODB_URL || 'mongodb://localhost:27017/stayfinder';
 
 const staticImages = [
-  "http://localhost:8000/uploads/1.jpg",
-  "http://localhost:8000/uploads/2.jpg",
-  "http://localhost:8000/uploads/3.jpg",
-  "http://localhost:8000/uploads/4.jpg",
-  "http://localhost:8000/uploads/5.jpg",
-  "http://localhost:8000/uploads/6.jpg",
-  "http://localhost:8000/uploads/7.jpg",
-  "http://localhost:8000/uploads/8.jpg",
-  "http://localhost:8000/uploads/9.jpg",
-  "http://localhost:8000/uploads/10.jpg",
-  "http://localhost:8000/uploads/11.jpg",
-  "http://localhost:8000/uploads/12.jpg",
-  "http://localhost:8000/uploads/13.jpg",
-  "http://localhost:8000/uploads/14.jpg",
-  "http://localhost:8000/uploads/15.jpg",
-  "http://localhost:8000/uploads/16.jpg",
-  "http://localhost:8000/uploads/17.jpg",
-  "http://localhost:8000/uploads/18.jpg"
+
+  "https://stayfinder-n48x.onrender.com/uploads/1.jpg",
+  "https://stayfinder-n48x.onrender.com/uploads/2.jpg",
+  "https://stayfinder-n48x.onrender.com/uploads/3.jpg",
+  "https://stayfinder-n48x.onrender.com/uploads/4.jpg",
+  "https://stayfinder-n48x.onrender.com/uploads/5.jpg",
+  "https://stayfinder-n48x.onrender.com/uploads/6.jpg",
+  "https://stayfinder-n48x.onrender.com/uploads/7.jpg",
+  "https://stayfinder-n48x.onrender.com/uploads/8.jpg",
+  "https://stayfinder-n48x.onrender.com/uploads/9.jpg",
+  "https://stayfinder-n48x.onrender.com/uploads/10.jpg",
+  "https://stayfinder-n48x.onrender.com/uploads/11.jpg",
+  "https://stayfinder-n48x.onrender.com/uploads/12.jpg",
+  "https://stayfinder-n48x.onrender.com/uploads/13.jpg",
+  "https://stayfinder-n48x.onrender.com/uploads/14.jpg",
+  "https://stayfinder-n48x.onrender.com/uploads/15.jpg",
+  "https://stayfinder-n48x.onrender.com/uploads/16.jpg",
+  "https://stayfinder-n48x.onrender.com/uploads/17.jpg",
+  "https://stayfinder-n48x.onrender.com/uploads/18.jpg"
+
+
 ];
 
 
