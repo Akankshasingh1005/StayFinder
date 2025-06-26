@@ -23,7 +23,9 @@ app.use("/api/user", userRouter);
 app.use("/api/listing", listingRouter);
 app.use("/api/bookings", bookingRouter);
 app.use("/api/listings", listingRouter);
-app.use('/uploads', express.static('public/uploads'));
+
+
+app.use('/uploads', express.static(path.join(__dirname, 'public/uploads')));
 
 
 app.listen(port, ()=>{
