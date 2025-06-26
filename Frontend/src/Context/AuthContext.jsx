@@ -2,7 +2,7 @@ import React, { createContext } from 'react'
 export const AuthDataContext = createContext()
 
 function AuthContext({ children }) {
-  let serverUrl = "http://localhost:8000";
+  let serverUrl = "https://stayfinder-backend-3xpo.onrender.com";
 
   let value = {
     serverUrl
