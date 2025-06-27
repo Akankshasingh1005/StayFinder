@@ -1,6 +1,6 @@
 # StayFinder 🏠
 
-StayFinder is a full-stack web application inspired by Airbnb. It allows users to create listings, browse places to stay, make bookings, and manage reservations — all in one place.
+StayFinder is a full-stack web application inspired by Airbnb. It allows users to create listings, browse places to stay, make bookings, and manage reservations-all in one place.
 
 ## 🔧 Tech Stack
 
